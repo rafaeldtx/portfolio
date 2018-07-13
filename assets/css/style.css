@@ -1,0 +1,42 @@
+/*ESTILOS DE EXIBIÇÃO DE CONTEÚDO/RODAPÉ (CONTENT/FOOTER)*/
+#body-content{
+  min-height: calc(100vh - 105px);
+  margin-top: 56px;
+}
+footer {
+  min-height: 50px;
+  padding: 15px;
+}
+footer p {
+	margin: 0px;
+}
+
+/*STYLES*/
+.section{
+  background-color: #b8c5c33b;
+  min-height: calc(100vh - 56px); 
+  padding: 1.25rem 0px;
+}
+
+.card-portifolio {
+  padding:0px;
+  margin-bottom: 1rem!important;
+}
+
+.img-portifolio {
+  width: 125px;
+  height: 125px;
+}
+
+/*ESTILOS DE VALIDAÇÃO DE FORMULÁRIOS*/
+label.error{
+  color: #e74c3c;
+  border-color: #e74c3c;
+  font-style: italic;
+  font-size: 14px;
+  margin: 0px;
+}
+
+input.error,select.error{
+  border:1px solid #f44336 !important;
+}
