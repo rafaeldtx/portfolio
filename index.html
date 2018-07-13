@@ -4,7 +4,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="author" content="Rafael Domingues">
 
-	<title>Portifólio - Rafael Domingues</title>
+	<title>Portfólio - Rafael Domingues</title>
 
 	<link rel="stylesheet" type="text/css" href="./assets/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="./assets/css/bootstrap-dialog.min.css">
@@ -29,7 +29,7 @@
 						<a class="nav-link" href="conhecimentos"><span class="fas fa-code"></span> Conhecimentos</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="portifolio"><span class="fas fa-briefcase"></span> Portifólio</a>
+						<a class="nav-link" href="portfolio"><span class="fas fa-briefcase"></span> Portfólio</a>
 					</li>
 					<li class="nav-item">
 						<a class="nav-link" href="contato"><span class="fas fa-user-circle"></span> Contato</a>
@@ -128,17 +128,17 @@
 					</div>
 				</div>
 
-				<!-- PORTIFÓLIO -->
-				<div class="row align-items-center section" id="portifolio">
+				<!-- PORTFÓLIO -->
+				<div class="row align-items-center section" id="portfolio">
 					<div class="col-sm-10 offset-sm-1">
-						<h1>Portifólio</h1>
+						<h1>Portfólio</h1>
 						<hr>
 						<p>A seguir, um resumo sobre os principais projetos em que participei:</p>
 						<div class="col-12">
 							<div class="row">							
-								<div class="card card-portifolio col-md-6">
+								<div class="card card-portfolio col-md-6">
 									<div class="card-header align-items-center text-center">
-										<img src="assets/imgs/brasao-caragua.png" class="img-portifolio" alt="">										
+										<img src="assets/imgs/brasao-caragua.png" class="img-portfolio" alt="">										
 									</div>
 									<div class="card-body text-justify">
 										<h5>Cadastro Habitacional</h5>
@@ -148,9 +148,9 @@
 									</div>
 								</div>
 
-								<div class="card card-portifolio col-md-6">
+								<div class="card card-portfolio col-md-6">
 									<div class="card-header align-items-center text-center">
-										<img src="assets/imgs/e-licitacoes.png" class="img-portifolio" alt="">										
+										<img src="assets/imgs/e-licitacoes.png" class="img-portfolio" alt="">										
 									</div>
 									<div class="card-body text-justify">
 										<h5>E-Licitações</h5>
@@ -160,9 +160,9 @@
 									</div>
 								</div>
 
-								<div class="card card-portifolio col-md-6">
+								<div class="card card-portfolio col-md-6">
 									<div class="card-header align-items-center text-center">
-										<img src="assets/imgs/gosto.png" class="img-portifolio" alt="">										
+										<img src="assets/imgs/gosto.png" class="img-portfolio" alt="">										
 									</div>
 									<div class="card-body text-justify">
 										<h5>Caraguá Agosto</h5>
@@ -172,9 +172,9 @@
 									</div>
 								</div>
 
-								<div class="card card-portifolio col-md-6">
+								<div class="card card-portfolio col-md-6">
 									<div class="card-header align-items-center text-center">
-										<img src="assets/imgs/brasao-caragua.png" class="img-portifolio" alt="">										
+										<img src="assets/imgs/brasao-caragua.png" class="img-portfolio" alt="">										
 									</div>
 									<div class="card-body text-justify">
 										<h5>Censo Funcional</h5>
@@ -288,14 +288,14 @@
 				var y = element.scrollTop()+56;
 				var navHome = $('#home').offset().top;
 				var navKnwldg = $('#conhecimentos').offset().top;
-				var navPrtflo = $('#portifolio').offset().top;
+				var navPrtflo = $('#portfolio').offset().top;
 				var navCntct = $('#contato').offset().top;
 				if (y >= navHome && y < navKnwldg) {
 					active = 'home';
 				} else if(y >= navKnwldg && y < navPrtflo) {
 					active = 'conhecimentos';
 				} else if(y >= navPrtflo && y < navCntct) {
-					active = 'portifolio';
+					active = 'portfolio';
 				} else if(y >= navCntct) {
 					active = 'contato';
 				}
