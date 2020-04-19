@@ -14,7 +14,7 @@ footer p {
 /*STYLES*/
 .section{
   background-color: #b8c5c33b;
-  min-height: calc(100vh - 56px); 
+  min-height: calc(100vh - 56px);
   padding: 1.25rem 0px;
 }
 
